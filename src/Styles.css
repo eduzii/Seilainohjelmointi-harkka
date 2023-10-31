@@ -1,0 +1,85 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, cursive;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.header-container {
+    margin-top: 200px;
+}
+
+table, th, td {
+    font-size: 25px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/*.varaa {
+    
+    background-color: #007bff;
+    color: white;
+    padding: 100px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    display: block; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+*/
+/*.palauta{
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    display: inline-block; 
+}*/
+
+.varaa:hover, .palauta:hover {
+    background-color: #0056b3;
+}
+
+.link {
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+.varaaf, .palautaf {
+    font-size: 25px;
+    border: 1px solid #555;
+}
